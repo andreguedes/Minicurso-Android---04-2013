@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Navegar Telas</string>
+    <string name="action_settings">Settings</string>
+    <string name="navTelas">Este é um exemplo de como 
+        interagir com varias telas.</string>
+
+    <string name="btnReceita">Receita de sorvete</string>
+    
+    <string name="titulo">Sobremesa de sorvete e creme</string>
+    
+    <string name="ingredientes">\t Ingredientes
+        
+.1/2 xícara (chá) de açúcar
+.1/4 de xícara (chá) de água
+.1/2 colher (café) de essência de baunilha
+.3 gemas
+.1 lata de creme de leite sem soro gelado
+.1 1/2 litro de sorvete de flocos
+.1 litro de sorvete de morango
+.50 g de coco ralado</string>
+
+    <string name="preparo">Modo de preparo
+
+Em uma panela, misture o açúcar, a água e a baunilha. 
+Leve ao fogo brando. Bata as gemas e coloque em fio 
+na mistura, mexendo até ferver. Transfira para um 
+refratário e coloque sobre uma travessa com gelo para
+ esfriar rápido. Bata na batedeira até ficar um creme 
+ homogêneo e claro. À parte bata o creme de leite até 
+ ficar encorpado e misture ao creme. Leve ao freezer. 
+ Com filme plástico, forre um refratário fundo de 18 cm
+  de diâmetro com capacidade para 1 litro. Espalhe o 
+  sorvete de flocos um pouco amolecido, no fundo e nas 
+  laterais do refratário. Leve ao freezer até endurecer. 
+  Sobre o sorvete de flocos espalhe o sorvete de morango,
+   também um pouco amolecido. Leve ao freezer até endurecer.
+    Complete com o creme reservado no freezer. Nivele a 
+    superfície, cubra com filme plástico e leve ao freezer
+     por no mínimo, quatro horas. Desenforme na hora de 
+     servir e cubra com o coco ralado.</string>
+     
+    <string name="dica">Dica
+
+Essa sobremesa pode ser feita com uma semana de antecedência.</string>
+</resources>

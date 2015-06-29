@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/edt1"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt2"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/rgOperacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <RadioButton
+            android:id="@+id/radio_soma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/soma" />
+
+        <RadioButton
+            android:id="@+id/radio_subtracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub" />
+
+        <RadioButton
+            android:id="@+id/radio_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi" />
+
+        <RadioButton
+            android:id="@+id/radio_divisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/div" />
+
+        <RadioButton
+            android:id="@+id/radio_porcent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/porc" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/limpar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/res"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

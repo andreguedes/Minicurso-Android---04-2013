@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello World</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Aqui serão definidos os textos a serem utilizados na aplicação.
+    * é extremamente aconselhavel que todos os textos sejam definidos na string.xml,
+    * pois muitos componentes e APIs não aceitam que sejam diretamente definidos no layout. -->
+    
+</resources>

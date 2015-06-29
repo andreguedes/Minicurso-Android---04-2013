@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora Simples</string>
+    <string name="action_settings">Settings</string>
+    <string name="text1">Calcular valores simples</string>
+    <string name="edt1">Digite um valor</string>
+	<string name="edt2">Digite outro valor</string>
+	<string name="soma">Soma</string>
+	<string name="sub">Subtração</string>
+	<string name="multi">Multiplicação</string>
+	<string name="div">Divisão</string>
+	<string name="porc">Porcentagem</string>
+	<string name="calcular">Calcular</string>
+	<string name="limpar">Limpar</string>
+	<string name="resultado">Resultado:</string>
+	<string name="res">0</string>
+</resources>
